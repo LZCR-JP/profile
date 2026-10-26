@@ -1,0 +1,91 @@
+body {
+  background-color: #1f2937;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: #374151;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+img {
+  width: 250px;
+  border-radius: 50%;
+  border: 4px solid #4ade80;
+}
+
+h1 {
+  color: #4ade80;
+}
+
+h2 {
+  color: #d1d5db;
+}
+
+p {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+button {
+  background-color: #4ade80;
+  color: black;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #22c55e;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #4ade80;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
